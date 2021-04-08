@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Myfirstwebpage</title>
+</head>
+
+<br>
+<!--style="color:blue"-->
+<h1 id="title">Myfirstwebpage</h1>
+<p class="top1" id="top2"> Herzlich willkommen auf meine Firstwebpage
+</p>
+<ul>
+    <li>First Linie</li>
+    <li>Zweite Linie</li>
+    <li>Dritte Linie</li>
+    <li>Vierte Linie</li>
+    <ol>
+        <li>my numbered list item</li>
+        <li>my numbered list item1</li>
+    </ol>
+</ul>
+<h2 class="subtitle">Good View</h2>
+<ul>
+    <li>First Linie</li>
+</ul>
+<!--span=container-->
+<span class="italics">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem unde aut animi, laboriosam perferendis. Ab ipsam, autem debitis consequatur tenetur officiis quos quae esse accusantium similique! Magni, dolores iste!</span>
+<h2 class="subtitle" id="about-me">About Me</h2>
+<img src="./image/img3.jpg" alt="gute Zeit" id="about-us-image">
+<textarea></textarea>
+<p class="top1">new area</p>
+
+<table border="1" class="site-table">
+    <thead>
+        <tr>
+            <td>Lorem</td>
+            <td>ipsum</td>
+            <td>Dolor</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sit</td>
+            <td>Amet</td>
+            <td>Consectetur</td>
+        </tr>
+        <tr>
+            <td>Adipisicing</td>
+            <td>Elit</td>
+            <td>Sed</td>
+        </tr>
+    </tbody>
+</table><br>
+<button>Submit</button>
+
+<div id="service-image"></div>
+
+
+<br class="container">
+<!--flex:grow shrink basis;
+        flex-grow: ; flex-shrink: ; flex-basis:;
+        align-self
+        note:there Two display types:Grid(focused on width and height)mit more toolsto layout your container in a specific way and flexbox(focused on width alone)
+        -->
+
+<!--flexbox-->
+<!--<div class="container-item" style="order: 4; flex:1 1 100px;align-self:center;"> A </div>
+        <div class="container-item" style="order: 3;flex:1 3 100px;align-self: flex-end;" s style="line-height:100px">B</div>
+        <div class="container-item" style="order: 5; flex:5 1 100px;align-self: flex-start;"> C </div>
+        <div class="container-item" style="order: 1; flex:1 0 100px;align-self: flex-start;"> D </div>
+        <div class="container-item" style="order: 2; flex:1 1 100px;align-self: center; "> E </div>
+        <div class="container-item" style="order: 2; flex:1 1 100px;align-self: center; "> E </div>
+        <div class="container-item" style="order: 6; flex-grow: ; flex-shrink: ; flex-basis: 100px;"> F </div>
+        <div class="container-item" style="order: 5; flex-grow: ; flex-shrink: ; flex-basis: 100px;"> G </div>
+        <div class="container-item" style="order: 4; flex-grow: ; flex-shrink: ; flex-basis: 100px;"> H </div>
+        <div class="container-item" style="order: 1; flex-grow: ; flex-shrink: ; flex-basis: 100px;"> I </div>
+        <div class="container-item" style="order: 2; flex-grow: ; flex-shrink: ; flex-basis: 100px;"> J </div>
+        <div class="container-item" style="order: ">K</div>
+        <div class="container-item" style="order: ">L</div>
+        <div class="container-item" style="order: ">M</div>
+        <div class="container-item" style="order: ">O</div>
+        <div class="container-item" style="order: ">N</div> 
+    </div>-->
+<div class="container">
+    <!--<div class="container-item" style="background:rgb(255, 150, 150);grid-column:1/ span 2;grid-row:1/ span 2"> 1 </div>-->
+    <div class="container-item" style="background:rgb(255, 150, 150);/*grid-column:1/ span 2;grid-row:1/ span 2;*/ grid-area: 2/1/span2/ span3"> 1 </div>
+    <div class="container-item" style="background:rgb(170,255,140)">2</div>
+    <div class="container-item" style="background:rgb(222,132,255)"> 3 </div>
+    <div class="container-item" style="background:rgb(255,207,119)"> 4 </div>
+    <div class="container-item" style="background:rgb(140,210,255) "> 5 </div>
+    <div class="container-item" style="background: rgb(255,203,99) "> 6 </div>
+</div>
+<img src="./image/img2.jfif" alt="gute Zeit">
+<a href="http://www.google.com" id="google-link" class="link">Click here to search</a>
+<button>Select</button>
+<h2 class="subtitle">Contact Us</h2>
+<form>
+    <input type="text" placeholder="Full Name" class="form-input"><br>
+    <input type="email" placeholder="Email" class="form-input"><br>
+    <textarea></textarea><br>
+    <button class="submit-button">Submit</button><br>
+</form>
+</body>
+
+</html>

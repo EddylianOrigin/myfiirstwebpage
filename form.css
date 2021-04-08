@@ -1,0 +1,367 @@
+#top2:hover {
+    color: red;
+}
+
+.top1 {
+    color: blue;
+}
+
+#title {
+    color: rgb(186, 133, 9);
+    /**größe des Titels**/
+    font-weight: 400;
+}
+
+.title {
+    color: rgb(219, 168, 50);
+}
+
+h2[class=subtitle] {
+    color: blue;
+}
+
+body {
+    background: rgb(126, 171, 208);
+}
+
+.subtitle {
+    color: rgb(219, 168, 50);
+    background: rgb(222, 238, 21);
+}
+
+body {
+    /**alpha opacity**/
+    /**background: rgba(204, 229, 255, 0.8);**/
+    /**background: url("https://th.bing.com/th/id/R4136195d491bd609766a9803f45b87fa?rik=0GVA5MKGUO9bmQ&pid=ImgRaw");**/
+    /**background-size: 100% 40%;**/
+    background-size: cover;
+    /**background-size: contain;**/
+    background-repeat: no-repeat;
+    /**background-color: rgb(31, 77, 173);**/
+    /**linear and radial-gradient**/
+    /**background: linear-gradient(to bottom, red, blue, gold, green);**/
+    /**background: linear-gradient(to bottom right, red, blue, gold, green);**/
+    /**background: linear-gradient(-100deg, red, blue, gold, green);**/
+    /**background: radial-gradient( blue, gold, green);**/
+    /**background: radial-gradient( blue 20%, gold 40%, black 55%);**/
+    /**define the shape**/
+    background: radial-gradient(circle, blue 20%, gold 40%, white 55%);
+    /**UNits pc (1pc=12point(pt)) is a lot bigger than pt(point) a little bigger than pixel**/
+    /**font-size: 1cm;**/
+    /**height: 400px;**/
+    /**height: 400pt;**/
+    /**height: 400pc;**/
+    height: 400vh;
+    /**viewheight**/
+    /**width: 70%;**/
+    /**viewwidth**/
+    width: 70vw;
+    /**uppercase,lowercase,capitalize**/
+    text-transform: capitalize;
+    text-align: justify;
+    /**same width or vertical,sans-serif**/
+    font-size: 1.15em;
+    font-family: "Arial", serif;
+    /**font-family:sans-serif**/
+    /**font-family:"Lato",sans-serif**/
+    /**font-family:"Sarabun",sans-serif**/
+    /**border:size style color;**/
+    /**border: 10px solid red;**/
+    /**border: 10px dotted red;**/
+    /**border: 10px dashed red;**/
+    border: 10px double blue;
+    /**padding: 20px;**/
+    /**margin: 20px;**/
+    /**padding-right: 40px;**/
+    /**padding-top: 40px;**/
+    /**padding-bottom:5px;**/
+    /**padding:Top right bottom left;**/
+    /**padding: 40px 40px 5px 20px;**/
+    /**margin: 10px 60px 5px 0;**/
+    /**margin:(Top,bottom),(left,right);**/
+    /**margin: 30px 30px;**/
+    /**bewegt a dokument to the right**/
+    /**float: right;**/
+}
+
+
+/**p {
+    color: sandybrown;
+}**/
+
+
+/**li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: aquamarine;
+}
+**/
+
+
+/**every second child is going to become blue;**/
+
+
+/**
+li:nth-child(2) {
+    color: blue;
+}**/
+
+
+/**li:only-child {
+    color: teal;
+}**/
+
+
+/* #google-link:link {
+    color: blue;
+}
+
+#google-link:visited {
+    color: violet;
+}*/
+
+
+/**[attribut selectors]**/
+
+p[class|="top1"] {
+    background: green;
+}
+
+
+/**der nächste Button after des Textareas is purple **/
+
+h2+a {
+    color: red;
+}
+
+ul li {
+    color: green;
+}
+
+
+/**every button after der Textarea is purple **/
+
+textarea~button {
+    color: purple;
+}
+
+ol>li {
+    color: blue;
+}
+
+
+/**img[src^="./webentwicklung/image"] {
+    border: 10px solid black;
+}**/
+
+img[src$="./webentwicklung/image"] {
+    border: 10px solid black;
+}
+
+
+/**img[src*="./webentwicklung/image"] {
+    border: 10px solid black;
+}**/
+
+
+/**img[src="./webentwicklung/image/img2.jfif"] {
+    border: 10px solid black;
+}**/
+
+selector {
+    property: value;
+    property2: value2;
+}
+
+.link {
+    text-decoration: overline;
+    /**text-decoration: underline;**/
+    /**text-decoration: line-through;**/
+    float: right;
+}
+
+.italics {
+    font-style: ;
+}
+
+#about-us-image {
+    height: 10px;
+    width: 1vw;
+}
+
+.site-table {
+    color: blue;
+    /**display: none;(macht die Tabelle unsehbar)**/
+    display: inline-block;
+    /**display: inline;**/
+    /** flexbox hat container and the flex-items**/
+}
+
+.container {
+    background-color: rgb(250, 250, 250);
+    margin: 10px;
+    /** a large**/
+    height: 300px;
+    /**flexbox**/
+    display: flex;
+    /**flex-direction: column-reverse;**/
+    /**flex-direction: row-reverse;**/
+    /**flex-direction: column;**/
+    flex-direction: row;
+    /**flex-wrap: wrap-reverse;**/
+    /**default value**/
+    /**flex-wrap: nowrap;**/
+    flex-wrap: wrap;
+    /**justify-content: center;**/
+    /**justify-content: flex;**/
+    /**justify-content: flex-end;**/
+    /**justify-content: space-between;**/
+    /**justify-content: space-around;**/
+    justify-content: center;
+    /**align-items: center;**/
+    /**align-items: flex-start;**/
+    /**align-items: flex-end;**/
+    /** from the Top to Bottom**/
+    /**align-items: stretch;**/
+    /**align-items: baseline;**/
+    align-items: center;
+}
+
+.container-item {
+    background: rgb(36, 130, 39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.grid-container {
+    background-color: rgb(250, 250, 250);
+    margin: 10px;
+    height: 500px;
+    display: grid;
+    /**5 columns**/
+    /**grid-template-columns: 10px 20px 30px;**/
+    grid-template-columns: auto 100px auto;
+    grid-column-gap: 150px;
+    /**2rows**/
+    /**grid-template-rows: 50px 250px;**/
+    grid-template-rows: auto auto;
+    /**grid-row-gap: 300px;**/
+    grid-gap: 300px 150px;
+    /**align content property**/
+    /**justify-content: end;**/
+    /**justify-content: start;**/
+    /*justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+    align-content: end;*/
+}
+
+.grid-item {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+
+/*pseudo-selector*/
+
+.submit-button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: rgb(89, 150, 255);
+    /**transition
+    transition: background 300ms ease-in-out 2s;**/
+    /**transition: background 300ms linear;**/
+    /**transition: background 300ms ease;**/
+    /**transition: all 500ms ease;**/
+    /**browser prefix of Chrome and safari
+    -webkit-transition: all 500ms ease;
+    -moz-animation: all 500ms ease;
+    -o-transition: all 500ms ease;**/
+    -webkit-transition: background, padding 500ms ease;
+    -moz-animation: background, padding 500ms ease;
+    -o-transition: background, padding 500ms ease;
+}
+
+.submit-button:hover {
+    color: black;
+    background: rgb(147, 187, 255);
+    padding: 20px 30px;
+    /**transformation fonction**/
+    /**transform: translate(50px, 30px);**/
+    /**transform: scale(2.5);**/
+    /**transform: rotate(-90deg);**/
+    /**transform: skewX(45deg);**/
+    /**transform: skewY(-45deg);**/
+    transform: matrix(1, 0.45, 0.45, 1, 100, 50);
+}
+
+
+/**@keyframes translate-element {
+    example {background: red}
+}**/
+
+
+/**@keyframes red-to-black {
+    from {
+        background: red;
+    }
+    to {
+        background: black;
+    }
+}**/
+
+
+/**note:design the animation**/
+
+#about-me {
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    /**animation-timing-function: ease;**/
+    animation-timing-function: Linear;
+    /**animation-timing-function: **/
+    /**don´t waiting for**/
+    /**animation-delay: -2s;**/
+    /**it will go over and over never finish**/
+    /**animation-iteration-count: infinite;**/
+    animation-iteration-count: 2;
+    /**animaion-direction:normal;**/
+    /**animation-direction: reverse;**/
+    /**animation-direction: alternate;**/
+    /**animation-direction: alternate-reverse;**/
+    -webkit-animation: red-to-black 4s linear 0s 2 alternate reverse;
+    -moz-animation: red-to-black 4s linear 0s 2 alternate reverse;
+    -ms-animation: red-to-black 4s linear 0s 2 alternate reverse;
+    -o-animation: red-to-black 4s linear 0s 2 alternate reverse;
+}
+
+@keyframes red-to-black {
+    0% {
+        background: red;
+        transform: translate(0px, 0px);
+    }
+    50% {
+        background: yellow;
+        transform: translate(10px, 10px);
+    }
+    100% {
+        background: black;
+        transform: translate(20px, 20px);
+    }
+}
